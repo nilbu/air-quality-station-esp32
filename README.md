@@ -155,7 +155,7 @@ The collected dataset can be used for:
 │   └── system_architecture.jpg
 ├── src/                        # ESP32 firmware
 ├── README.md
-
+```
 ---
 
 ## Author
