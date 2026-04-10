@@ -60,7 +60,9 @@ Data is sent via HTTP to Google Sheets using Google Apps Script.
 
 ## Prototype
 
-Images of the hardware setup will be added soon.
+Breadboard prototype of the air quality monitoring station:
+
+![Prototype](images/prototype.jpg)
 
 ---
 
