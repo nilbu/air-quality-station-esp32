@@ -156,6 +156,21 @@ The collected dataset can be used for:
 ├── src/                        # ESP32 firmware
 ├── README.md
 ```
+
+---
+
+## Engineering Decisions
+
+Several design choices were made to improve measurement quality and long-term reliability:
+
+- **Median filtering** was used to suppress short-term spikes from the sensors
+- **EMA smoothing** was applied to stabilize environmental readings over time
+- **Humidity correction** was introduced for particulate matter measurements
+- **Physical consistency validation** ensures PM1 ≤ PM2.5 ≤ PM10
+- **Duty cycling** reduces PMS5003 wear, overheating and dust buildup
+- **Cleaning cycles** help maintain more stable long-term sensor operation
+- **Google Sheets** was chosen as a lightweight and practical datastore for prototyping and remote access
+
 ---
 
 ## Author
