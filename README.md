@@ -60,6 +60,18 @@ Example sensor records logged to Google Sheets:
 
 ---
 
+## Setup
+
+Additional setup files are available in the repository:
+
+- [Database initialization](database/init.sql)
+- [Example SQL queries](database/example_queries.sql)
+- [Database setup guide](docs/database_setup.md)
+- [n8n setup guide](docs/n8n_setup.md)
+- [Sanitized n8n workflow JSON](n8n/telegram-weather-workflow-sanitized.json)
+
+---
+
 ## Integrations Preview
 
 Example n8n workflow:
